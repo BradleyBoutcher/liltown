@@ -1,6 +1,15 @@
 # Lil' Town
 An Animal Crossing inspired town management game, created entirely in Pico-8!
 
+## Features
+- A Day / Night Cycle that includes different music and things to do!
+- Different seasons allow different opportunities!
+- Collect resources and build houses! New citizens will move in and help out!
+- Keep your town clean and tidy by pulling weeds and throwing away trash
+
+## Running the game
+Executible for Mac, PC, and Linux can be found inside the liltown.bin folder
+
 ## Contributing
 
 To add to this game, please first contact me to become a contributor. Any help is most welcome!
