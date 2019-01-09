@@ -119,6 +119,7 @@ function grow_plants()
 	end
 end
 
+-- Animated clock in top right hand corner
 function draw_clock() 
 	x = cam_x+115
 	y = cam_y + 12

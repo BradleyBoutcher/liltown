@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleExecutable</key>
-	<string>lilguy</string>
+	<string>liltown</string>
 	<key>CFBundleGetInfoString</key>
-	<string>lilguy</string>
+	<string>liltown</string>
 	<key>CFBundleIconFile</key>
-	<string>lilguy.icns</string>
+	<string>liltown.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.pico8_author.lilguy</string>
+	<string>com.pico8_author.liltown</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>lilguy</string>
+	<string>liltown</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>lilguy</string>
+	<string>liltown</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>lilguy</string>
+	<string>liltown</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.5</string>
 </dict>
