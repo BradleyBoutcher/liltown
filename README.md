@@ -14,7 +14,7 @@ Executibles for Mac, PC, and Linux can be found inside the liltown.bin folder
 
 To add to this game, please first contact me to become a contributor. Any help is most welcome!
 
-### Features
+### Completing Tasks
 All features and issues are tracked within a project board. Please follow these steps:
   1. Assign yourself an issue
     - If an issue is too large, break it down into multiple tasks on the Project Board
