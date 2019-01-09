@@ -8,7 +8,7 @@ An Animal Crossing inspired town management game, created entirely in Pico-8!
 - Keep your town clean and tidy by pulling weeds and throwing away trash
 
 ## Running the game
-Executible for Mac, PC, and Linux can be found inside the liltown.bin folder
+Executibles for Mac, PC, and Linux can be found inside the liltown.bin folder
 
 ## Contributing
 
