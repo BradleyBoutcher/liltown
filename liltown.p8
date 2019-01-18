@@ -14,14 +14,14 @@ local guy = {
 	free = true,
 	o = 0
 }
-
+-- Initial values for drawing the ground
 local ground = {
 	stage = 0,
 	c = 3,
 	f = 0b0000000000000000
 }
 -- clock 
-local hour,minute,second = 0,0,0
+local hour,minute,second = 11,59,0
 -- day or night
 am = true
 -- frame timer
@@ -144,7 +144,7 @@ end
 
 function update_ground()
 	if (am) ground.c = 3 else ground.c = 1
-	if (frame % 15 == 0) then 
+	if (frame % 20 == 0) then 
 		if (ground.stage == 0) ground.f = 0b1000100010001000
 		if (ground.stage == 1) ground.f = 0b1010101010101010
 		if (ground.stage >= 2) ground.f = 0b0000000000000000
@@ -154,11 +154,12 @@ end
 
 function draw_ground()
 	fillp(ground.f)
-	rectfill(0,0,1017,255,c)
+	rectfill(0,0,1017,255,ground.c)
+	print(ground.f,cam_x,cam_y + 10, 2)
 end
 
 -- increment frame timer and clock values
-function time()
+function update_time()
 	if (frame > 30) then
 		frame = 1
 		if (second > 59) then
@@ -168,9 +169,12 @@ function time()
 				if (hour > 11) then
 					if (am) am = false else am = true
 					ground_stage = 0
-					hour = 0
-				else 
-					hour += 1
+					hour = 12
+					elseif (hour == 12) then
+						hour = 1
+					else
+						hour += 1
+					end
 				end
 			else
 				minute +=1
@@ -190,7 +194,7 @@ function _init()
 end
 
 function _update()
-	time()
+	update_time()
 	grow_plants()
 	anim_guy()
 	move_guy()
